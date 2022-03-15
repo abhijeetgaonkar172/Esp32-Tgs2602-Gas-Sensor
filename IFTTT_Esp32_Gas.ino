@@ -18,11 +18,13 @@ float VOC_A = 0.3220722;
 float VOC_B = -0.6007520;
 
 // Replace with your SSID and Password
-const char* ssid     = "CAPS";
-const char* password = "caps@2202";
+const char* ssid     = "TGS_Network";
+const char* password = "AmoghSadhu";
+//const char* ssid     = "CAPS";
+//const char* password = "caps@2202";
 
 // Replace with your unique IFTTT URL resource
-const char* resource = "/trigger/gas_readings/with/key/gKrofWrzw1-JzHoLdIEQhqU4WxoEvgDFQVSBjrSj3OU";
+const char* resource = "/trigger/gas_readings/with/key/nMIop-xe4BQ8qpFciFX9iKkf9EcoDiSPRb8ywxuYfgS";
 
 // Maker Webhooks IFTTT
 const char* server = "maker.ifttt.com";
@@ -55,7 +57,7 @@ void loop() {
   float ratio_F2602;
 
   //Serial.println(analogRead(F2602));
-  VRL_F2602 = analogRead(F2602)*(5.0/4095.0); //4095
+  VRL_F2602 = analogRead(F2602)*(3.3/4095.0); //4095
   Rs_F2602 = ((5.0/VRL_F2602)-1)*(RL_F2602); 
   ratio_F2602 = Rs_F2602/Ro_F2602;
 
