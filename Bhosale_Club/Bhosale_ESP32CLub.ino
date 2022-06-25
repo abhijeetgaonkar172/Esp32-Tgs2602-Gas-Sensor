@@ -4,6 +4,16 @@
  * Website: www.circuitdigest.com
  * Dated: 28-12-2017
  */
+//D13 - CK
+//D12 - DOUT
+//D11 - DIN
+//D10 - CS
+
+//GPIO18 - CK
+//GPIO19 - DOUT
+//GPIO23 - DIN
+//GPIO5 - CS
+
 #include <MCP3202.h>
 
 float channel1 =0;
