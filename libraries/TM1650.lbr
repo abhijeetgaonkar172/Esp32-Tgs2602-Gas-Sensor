@@ -1,0 +1,183 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOP-16">
+<description>PAM8403
+
+
+Filterless 3W Class-D Stereo Audio Amplifier - 
+Power Analog Micoelectronics</description>
+<wire x1="11.049" y1="4.4958" x2="1.651" y2="4.4958" width="0.1524" layer="21"/>
+<wire x1="11.049" y1="0.5842" x2="11.43" y2="0.9652" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="4.1148" x2="1.651" y2="4.4958" width="0.1524" layer="21" curve="-90"/>
+<wire x1="11.049" y1="4.4958" x2="11.43" y2="4.1148" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.27" y1="0.9652" x2="1.651" y2="0.5842" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="0.5842" x2="11.049" y2="0.5842" width="0.1524" layer="21"/>
+<wire x1="11.43" y1="0.9652" x2="11.43" y2="4.1148" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="4.1148" x2="1.27" y2="0.9652" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="3.048" x2="1.27" y2="2.032" width="0.1524" layer="21" curve="-180"/>
+<text x="4.064" y="1.143" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="4.064" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="5.461" y1="4.4958" x2="5.969" y2="5.6388" layer="51"/>
+<rectangle x1="1.651" y1="-0.5588" x2="2.159" y2="0.5842" layer="51"/>
+<rectangle x1="2.921" y1="-0.5588" x2="3.429" y2="0.5842" layer="51"/>
+<rectangle x1="4.191" y1="-0.5334" x2="4.699" y2="0.6096" layer="51"/>
+<rectangle x1="5.461" y1="-0.5588" x2="5.969" y2="0.5842" layer="51"/>
+<rectangle x1="4.191" y1="4.4958" x2="4.699" y2="5.6388" layer="51"/>
+<rectangle x1="2.921" y1="4.4958" x2="3.429" y2="5.6388" layer="51"/>
+<rectangle x1="1.651" y1="4.4958" x2="2.159" y2="5.6388" layer="51"/>
+<rectangle x1="6.731" y1="-0.5588" x2="7.239" y2="0.5842" layer="51"/>
+<rectangle x1="8.001" y1="-0.5588" x2="8.509" y2="0.5842" layer="51"/>
+<rectangle x1="9.271" y1="-0.5588" x2="9.779" y2="0.5842" layer="51"/>
+<rectangle x1="10.541" y1="-0.5588" x2="11.049" y2="0.5842" layer="51"/>
+<rectangle x1="6.731" y1="4.4958" x2="7.239" y2="5.6388" layer="51"/>
+<rectangle x1="8.001" y1="4.4958" x2="8.509" y2="5.6388" layer="51"/>
+<rectangle x1="9.271" y1="4.4958" x2="9.779" y2="5.6388" layer="51"/>
+<rectangle x1="10.541" y1="4.4958" x2="11.049" y2="5.6388" layer="51"/>
+<circle x="2.032" y="1.27" radius="0.359209" width="0.4064" layer="21"/>
+<smd name="1" x="1.905" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="1.905" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="3.175" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="4.445" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="3.175" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="4.445" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="5.715" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="5.715" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="6.985" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="6.985" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="8.255" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="9.525" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="8.255" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="9.525" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="10.795" y="-0.5334" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="10.795" y="5.6134" dx="0.6604" dy="2.032" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TM1650">
+<wire x1="0" y1="0" x2="35.56" y2="0" width="0.254" layer="94"/>
+<wire x1="35.56" y1="0" x2="35.56" y2="40.64" width="0.254" layer="94"/>
+<wire x1="35.56" y1="40.64" x2="20.32" y2="40.64" width="0.254" layer="94"/>
+<wire x1="15.24" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<wire x1="0" y1="40.64" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="12.7" y="10.16" size="1.778" layer="96">TM1650</text>
+<text x="12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="20.32" y1="40.64" x2="15.24" y2="40.64" width="0.254" layer="94" curve="-180"/>
+<pin name="DIG1" x="-5.08" y="38.1" length="middle"/>
+<pin name="SCL" x="-5.08" y="33.02" length="middle"/>
+<pin name="SDA" x="-5.08" y="27.94" length="middle"/>
+<pin name="GND" x="-5.08" y="22.86" length="middle"/>
+<pin name="DIG2" x="-5.08" y="17.78" length="middle"/>
+<pin name="DIG3" x="-5.08" y="12.7" length="middle"/>
+<pin name="DIG4" x="-5.08" y="7.62" length="middle"/>
+<pin name="A/KI1" x="-5.08" y="2.54" length="middle"/>
+<pin name="B/KI2" x="40.64" y="2.54" length="middle" rot="R180"/>
+<pin name="VDD" x="40.64" y="7.62" length="middle" rot="R180"/>
+<pin name="C/KI3" x="40.64" y="12.7" length="middle" rot="R180"/>
+<pin name="D/KI4" x="40.64" y="17.78" length="middle" rot="R180"/>
+<pin name="E/KI5" x="40.64" y="22.86" length="middle" rot="R180"/>
+<pin name="F/KI6" x="40.64" y="27.94" length="middle" rot="R180"/>
+<pin name="G/KI7" x="40.64" y="33.02" length="middle" rot="R180"/>
+<pin name="DP/KP" x="40.64" y="38.1" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TM1650" prefix="U">
+<description>TM1650&lt;P&gt;
+LED Driver and keyboard &lt;a href="https://pricing.snapeda.com/parts/TM1650/tm/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="U1" symbol="TM1650" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP-16">
+<connects>
+<connect gate="U1" pin="A/KI1" pad="8"/>
+<connect gate="U1" pin="B/KI2" pad="9"/>
+<connect gate="U1" pin="C/KI3" pad="11"/>
+<connect gate="U1" pin="D/KI4" pad="12"/>
+<connect gate="U1" pin="DIG1" pad="1"/>
+<connect gate="U1" pin="DIG2" pad="5"/>
+<connect gate="U1" pin="DIG3" pad="6"/>
+<connect gate="U1" pin="DIG4" pad="7"/>
+<connect gate="U1" pin="DP/KP" pad="16"/>
+<connect gate="U1" pin="E/KI5" pad="13"/>
+<connect gate="U1" pin="F/KI6" pad="14"/>
+<connect gate="U1" pin="G/KI7" pad="15"/>
+<connect gate="U1" pin="GND" pad="4"/>
+<connect gate="U1" pin="SCL" pad="2"/>
+<connect gate="U1" pin="SDA" pad="3"/>
+<connect gate="U1" pin="VDD" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Description" value="
+"/>
+<attribute name="MP" value="TM1650"/>
+<attribute name="Package" value="None"/>
+<attribute name="Price" value="None"/>
+<attribute name="Availability" value="Not in stock"/>
+<attribute name="MF" value="tm"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
